@@ -10,13 +10,10 @@ The notebook loads a CSV dataset, inspects its structure, and extracts a new fea
 
 - Imports `numpy` and `pandas`
 - Loads the `anime.csv` dataset from a GitHub raw URL
-- Displays the dataset and checks its structure with `head()` and `info()`
-- Works with the `Title` column, which contains multiple pieces of information in one string
-- Defines a custom function to extract the number of episodes from the title text
-- Uses `apply()` to create a new `Episodes` column
-- Cleans the extracted values by removing the `eps` text
-- Converts the extracted values into integer type
-- Verifies the final transformed dataframe
+- Loading and inspecting the dataset
+- Performing basic Pandas operations
+- Extracting useful features from the data
+- Preparing the data for further analysis
 
 ## Techniques Used
 
